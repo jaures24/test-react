@@ -1,0 +1,31 @@
+.nav {
+    padding: 10px 22px;
+    min-height:25px;
+    border-top: solid 1px $nav-border-color;
+    border-bottom: solid 1px $nav-border-color;
+
+    p {
+        margin: 0;
+    }
+
+    p.a_right {
+        text-align: right;
+    }
+}
+
+.prev-arrow, .next-arrow {
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.prev-arrow {
+    float:left;
+    margin-right:20px;
+    border-right:13px solid $link-color;
+}
+
+.next-arrow {
+    float:right;
+    margin-left:20px;
+    border-left: 13px solid $link-color;
+}

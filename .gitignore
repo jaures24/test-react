@@ -1,0 +1,7 @@
+node_modules/
+temp/
+doc/
+dist/
+.idea/
+*.log
+*.iml
